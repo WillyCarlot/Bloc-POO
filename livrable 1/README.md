@@ -27,7 +27,8 @@ definition de action pour interagir avec la base de donne
 
 ### Dictionnaires des données
 
-voir excel (POO dictionnaire de données)
+[voir excel (POO dictionnaire de données)](POO_dictionnaire_de_données.xlsx)
 
 ### ecriture de code permetent la creation de la base de donne (mpd)
-voir bdd.sql
+
+[voir bdd.sql](bdd.sql)
