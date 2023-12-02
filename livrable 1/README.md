@@ -32,3 +32,11 @@ definition de action pour interagir avec la base de donne
 ### ecriture de code permetent la creation de la base de donne (mpd)
 
 [voir bdd.sql](bdd.sql)
+
+## definition de action pour interagir avec la base de donne :
+
+### diagrame de sequence poru la creation d'une ligne dans une table :
+
+![Alt text](diagrame_sequence_creation.png)
+
+
