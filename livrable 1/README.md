@@ -1,13 +1,13 @@
 # <p align="center" > MININF-PROJET-POO </p>
-## objectif de realiation : 
+## objectif de réalisation : 
 
-definition et creation de la base de donne : 
+définition et création de la base de données : 
     mcd 
     mld
     Dictionnaires des données
 
-definition de action pour interagir avec la base de donne 
-    diagramme uml : séquence (cree, modifier, supprimer, afficher des donne)
+définition des actions pour interagir avec la base de données 
+    diagramme uml : séquence (créer, modifier, supprimer, afficher des données)
     diagramme uml : activité
     diagramme uml : classe 
 
@@ -15,7 +15,7 @@ definition de action pour interagir avec la base de donne
 
 
 
-## definition et creation de la base de donne : 
+## définition et création de la base de données : 
 
 ### mcd 
 
@@ -29,13 +29,13 @@ definition de action pour interagir avec la base de donne
 
 [voir excel (POO dictionnaire de données)](POO_dictionnaire_de_données.xlsx)
 
-### ecriture de code permetent la creation de la base de donne (mpd)
+### écriture du code permettant la création de la base de données (mpd)
 
 [voir bdd.sql](bdd.sql)
 
-## definition de action pour interagir avec la base de donne :
+## définition des actions pour interagir avec la base de données :
 
-### diagrame de sequence poru la creation d'une ligne dans une table :
+### diagramme de séquence pour la création d'une ligne dans une table :
 
 ![Alt text](diagrame_sequence_creation.png)
 
