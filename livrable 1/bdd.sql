@@ -1,13 +1,10 @@
-create database projetPOO
-
-
 CREATE TABLE ARTICLES(
    Id_Article INT NOT NULL IDENTITY(1, 1),
    art_designation VARCHAR(50),
    art_quantiteStock INT,
    art_seuilReapprovis INT,
-   art_prix FLOAT,
-   art_tva FLOAT,
+   art_prix float,
+   art_tva float,
    PRIMARY KEY(Id_Article)
 );
 
@@ -76,6 +73,7 @@ CREATE TABLE ADRESSE(
    adr_num VARCHAR(50),
    adr_rue VARCHAR(50),
    adr_postalcode VARCHAR(50),
+   adr_type VARCHAR(50),
    id_ville INT NOT NULL,
    PRIMARY KEY(id_adresse),
    FOREIGN KEY(id_ville) REFERENCES VILLE(id_ville)
