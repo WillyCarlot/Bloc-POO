@@ -1,5 +1,5 @@
 #pragma once
-class commandes {
+ref class commandes {
 	private:
 		int Id_Commande;
 		System::String^ com_reference;

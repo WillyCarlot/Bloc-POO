@@ -1,6 +1,6 @@
 #pragma once
 
-class utilisateur{
+ref class utilisateur{
 	private:
 		System::String^ pay_nom;
 		System::String^ uti_dateNaissance;

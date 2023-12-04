@@ -1,6 +1,5 @@
 #include "utilisateur.h"
 
-
 //get
 System::String^ utilisateur::get_pay_nom(void){
 	return this->pay_nom;

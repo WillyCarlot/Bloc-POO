@@ -5,7 +5,7 @@ ref class articles{
         int Id_Article;
         System::String^ art_designation;
         int art_quantiteStock;
-        int ar_seuilReapprovis;
+        int art_seuilReapprovis;
         float art_prix;
         float art_tva;
     public:
@@ -17,10 +17,10 @@ ref class articles{
         float get_art_prix(void);
         float get_art_tva(void);
         //set
-        void Id_Article(int);
-        void art_designation(System::String^);
-        void art_quantiteStock(int);
-        void ar_seuilReapprovis(int);
-        void art_prix(float);
-        void art_tva(float);
+        void set_Id_Article(int);
+        void set_art_designation(System::String^);
+        void set_art_quantiteStock(int);
+        void set_art_seuilReapprovis(int);
+        void set_art_prix(float);
+        void set_art_tva(float);
 };

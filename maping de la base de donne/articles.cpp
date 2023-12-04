@@ -20,21 +20,21 @@ float articles::get_art_tva(void){
 	return this->art_tva;
 }
 //set
-void articles::Id_Article(int Id){
+void articles::set_Id_Article(int Id){
 	this->Id_Article = Id;
 }
-void articles::art_designation(System::String^ nom){
+void articles::set_art_designation(System::String^ nom){
 	this->art_designation = nom;
 }
-void articles::art_quantiteStock(int quantite){
+void articles::set_art_quantiteStock(int quantite){
 	this->art_quantiteStock = quantite;
 }
-void articles::ar_seuilReapprovis(int seuil){
-	this->ar_seuilReapprovis = seuil;
+void articles::set_art_seuilReapprovis(int seuil){
+	this->art_seuilReapprovis = seuil;
 }
-void articles::art_prix(float prix){
+void articles::set_art_prix(float prix){
 	this->art_prix = prix;
 }
-void articles::art_tva(float tva){
+void articles::set_art_tva(float tva){
 	this->art_tva = tva;
 }
