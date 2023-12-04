@@ -11,5 +11,5 @@ Une nouvelle entreprise développe son système d’information. Son cœur d’a
 - cpp/CLI
 - sql
 
-salut
+
 
