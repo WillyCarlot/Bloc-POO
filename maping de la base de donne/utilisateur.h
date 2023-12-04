@@ -1,11 +1,11 @@
 #pragma once
 
-class humain{
+class utilisateur{
 	private:
 		System::String^ pay_nom;
-		System::String^ hum_dateNaissance;
-		System::String^ hum_prenom;
-		System::String^ hum_nom;
+		System::String^ uti_dateNaissance;
+		System::String^ uti_prenom;
+		System::String^ uti_nom;
 		System::String^ adr_postalcode;
 		System::String^ adr_num;
 		System::String^ adr_rue;
@@ -18,9 +18,9 @@ class humain{
 	public:
 		//get
 		System::String^ get_pay_nom(void);
-		System::String^ get_hum_dateNaissance(void);
-		System::String^ get_hum_prenom(void);
-		System::String^ get_hum_nom(void);
+		System::String^ get_uti_dateNaissance(void);
+		System::String^ get_uti_prenom(void);
+		System::String^ get_uti_nom(void);
 		System::String^ get_adr_postalcode(void);
 		System::String^ get_adr_num(void);
 		System::String^ get_adr_rue(void);
@@ -32,9 +32,9 @@ class humain{
 		int get_id_Personnel(void);
 		//set
 		void set_pay_nom(System::String^);
-		void set_hum_dateNaissance(System::String^);
-		void set_hum_prenom(System::String^);
-		void set_hum_nom(System::String^);
+		void set_uti_dateNaissance(System::String^);
+		void set_uti_prenom(System::String^);
+		void set_uti_nom(System::String^);
 		void set_adr_postalcode(System::String^);
 		void set_adr_num(System::String^);
 		void set_adr_rue(System::String^);

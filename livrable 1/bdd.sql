@@ -11,12 +11,12 @@ CREATE TABLE ARTICLES(
    PRIMARY KEY(Id_Article)
 );
 
-CREATE TABLE HUMAIN(
-   id_humain INT NOT NULL IDENTITY(1, 1),
-   hum_nom VARCHAR(50),
-   hum_prenom VARCHAR(50),
-   hum_dateNaissance DATE,
-   PRIMARY KEY(id_humain)
+CREATE TABLE UTILISATEUR(
+   id_utilisateur INT NOT NULL IDENTITY(1, 1),
+   uti_nom VARCHAR(50),
+   uti_prenom VARCHAR(50),
+   uti_dateNaissance DATE,
+   PRIMARY KEY(id_utilisateur)
 );
 
 CREATE TABLE PAYS(
@@ -37,18 +37,18 @@ CREATE TABLE PERSONNEL(
    id_Personnel INT NOT NULL IDENTITY(1, 1),
    per_supHerachique INT,
    per_dateDembauche DATE,
-   id_humain INT NOT NULL,
+   id_utilisateur INT NOT NULL,
    PRIMARY KEY(id_Personnel),
-   UNIQUE(id_humain),
-   FOREIGN KEY(id_humain) REFERENCES HUMAIN(id_humain)
+   UNIQUE(id_utilisateur),
+   FOREIGN KEY(id_utilisateur) REFERENCES UTILISATEUR(id_utilisateur)
 );
 
 CREATE TABLE CLIENTS(
    Id_Client INT NOT NULL IDENTITY(1, 1),
-   id_humain INT NOT NULL,
+   id_utilisateur INT NOT NULL,
    PRIMARY KEY(Id_Client),
-   UNIQUE(id_humain),
-   FOREIGN KEY(id_humain) REFERENCES HUMAIN(id_humain)
+   UNIQUE(id_utilisateur),
+   FOREIGN KEY(id_utilisateur) REFERENCES UTILISATEUR(id_utilisateur)
 );
 
 CREATE TABLE COMMANDES(
@@ -91,9 +91,9 @@ CREATE TABLE CONTENIR(
 
 CREATE TABLE AVOIR(
    id_adresse INT,
-   id_humain INT,
-   PRIMARY KEY(id_adresse, id_humain),
+   id_utilisateur INT,
+   PRIMARY KEY(id_adresse, id_utilisateur),
    FOREIGN KEY(id_adresse) REFERENCES ADRESSE(id_adresse),
-   FOREIGN KEY(id_humain) REFERENCES HUMAIN(id_humain)
+   FOREIGN KEY(id_utilisateur) REFERENCES UTILISATEUR(id_utilisateur)
 );
 
