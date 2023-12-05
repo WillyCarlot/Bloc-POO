@@ -12,7 +12,8 @@ définition et création de la base de données :
     mcd 
     mld
 
-définition des interagir avec la base de données et de la modelisation 
+définition des interagir avec la base de données et de la modelisation
+
     diagramme uml : séquence (créer, modifier, supprimer, afficher des données)
     diagramme uml : activité
     diagramme uml : classe 
