@@ -147,16 +147,27 @@ En effet nous pouvons y voir toutes les interactions entre les Objets du systèm
 ### Diagramme d’activité (Gestion d’un personnel)
 
 ![Diagramme d’activité](activite.png)
+\
 Légende :
+\
 ![condition](condition.png)
+\
 Permet de faire une condition Si et donc de faire des vérifications au sein de la table ou pour vérifier une action utilisateur. 
+\
 ![actions](actions.png)
+\
 Permet d’identifier les actions effectuées au sein de la Table “Personnel”.
+\
 ![join](join.png)
+\
 Permettent de rejoindre deux actions vers une action finale.
+\
 ![fin](fin.png)
-Permet d’identifier la fin de la branche et de mettre fin à l’action orchestrée dans la table.   
+\
+Permet d’identifier la fin de la branche et de mettre fin à l’action orchestrée dans la table.
+\
 ![debut](debut.png)
+\
 Marque le début du diagramme d’activité. 
 
 Notre diagramme d’activité va nous permettre d’illustrer nos activités au sein de la Table “Personnel” et les changements qui peuvent être opérés au sein de cette Table comme : 
