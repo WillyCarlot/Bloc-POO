@@ -17,10 +17,10 @@ Dans un premier temps, nous avons défini quel était le rôle de chacun dans le
 ### Etape 2:
 Durant cette étape, nous avons modélisé et défini le besoin avec différant diagrammes, par la suite, nous avons modélisé notre base de donne afin de la créer
 
-[Livrable 1](livrable%201)
+[Livrable 1](livrable%201/README.md)
 ### Etape 3:
 Cette étape est consacrée à la réalisation 
 
-[Livrable 2](livrable%202)
+[Livrable 2](livrable%202/README.md)
 
 
