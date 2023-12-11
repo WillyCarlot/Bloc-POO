@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\him">
+      <UniqueIdentifier>{30e9354d-13eb-4e49-9f1b-5437264f628c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\him">
+      <UniqueIdentifier>{760db8e0-d100-408d-bff9-0205d22edb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\map">
+      <UniqueIdentifier>{3a187865-b14c-4a03-b6b3-92bc5bc864a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\map">
+      <UniqueIdentifier>{435c6363-58a8-47c1-b7fc-74c6d0f3fce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="home.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionClient.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionPersonnel.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionCommandes.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionStock.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionStatistique.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="CLservices.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CLmap_stock_article.h">
+      <Filter>Fichiers d%27en-tête\map</Filter>
+    </ClInclude>
+    <ClInclude Include="CLcad.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFormArticle.h">
+      <Filter>Fichiers d%27en-tête\him</Filter>
+    </ClInclude>
+    <ClInclude Include="CLmap_utilisateur.h">
+      <Filter>Fichiers d%27en-tête\map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_statistiques.h">
+      <Filter>Fichiers d%27en-tête\map</Filter>
+    </ClInclude>
+    <ClInclude Include="CLmap_commandes.h">
+      <Filter>Fichiers d%27en-tête\map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="home.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormGestionClient.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormGestionCommandes.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormGestionPersonnel.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormGestionStatistique.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormGestionStock.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="CLservices.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CLcad.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CLmap_stock_article.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFormArticle.cpp">
+      <Filter>Fichiers sources\him</Filter>
+    </ClCompile>
+    <ClCompile Include="CLmap_utilisateur.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_statistiques.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+    <ClCompile Include="CLmap_commandes.cpp">
+      <Filter>Fichiers sources\map</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
