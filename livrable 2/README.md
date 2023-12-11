@@ -166,7 +166,9 @@ Ce code va comparer le résultat attendu avec le résultat réel de la fonction,
 ![Alt text](TEST_UNITAIRES_NON_CONVENTIONNEL.png)
 \
 ### TESTS UNITAIRES CONVENTIONNELS 
+\
 [dossier test unitaire]()
+\
 Voici un exemple de test unitaire que nous avons utilisé dans le code qui est plus conventionnel para port à celui-ci-dessus 
 
 ```cpp
