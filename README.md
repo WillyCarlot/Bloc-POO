@@ -11,5 +11,9 @@ Une nouvelle entreprise développe son système d’information. Son cœur d’a
 - cpp/CLI
 - sql
 
+## Déroulement du projet
+### Etape 1:
+### Etape 2:
+### Etape 3:
 
 
