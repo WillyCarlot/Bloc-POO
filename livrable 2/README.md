@@ -164,7 +164,8 @@ int main()
 Ce code va comparer le résultat attendu avec le résultat réel de la fonction, “insérerPersonnel()” qui sert à insérer un personnel et renvoyer “testCreerPersonnel passed” si le résultat est similaire ce qui correspond au fonctionnement prévu de notre fonction, Dans le cas contraire “testCreerPersonnel failed” est renvoyé, ce qui correspond à un dysfonctionnement de notre fonction. voici le résultat
 \
 ![Alt text](TEST_UNITAIRES_NON_CONVENTIONNEL.png)
-\
+
+
 ### TESTS UNITAIRES CONVENTIONNELS 
 \
 [dossier test unitaire]()
