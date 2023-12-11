@@ -18,7 +18,7 @@
 Une nouvelle entreprise développe son système d’information. Dans le premier livrable, nous avions spécifié l’architecture de notre base de données et les prémisses de l’architecture de notre code ainsi que son fonctionnement global. Dans l’optique de continuer sur cette lancée dans ce livrable, nous allons aborder les aspects techniques et fonctionnels de notre code afin de fournir à l’utilisateur une aide d’utilisation.
 
 ## SPÉCIFICATIONS FONCTIONNELLES :  
-
+[Cf. document – Spécification fonctionnelle Equipe 07](Specification_fonctionnelle_Equipe_07.pdf)
 ## SPÉCIFICATIONS TECHNIQUES : 
 Lors de l’application de notre code, nous nous sommes rendu compte de quelques discordances entre les actions que nous voulions effectuer et la base de donne que nous avions créé lors du livrable 2 pour que celle-ci soit plus en corrélation avec la demande, nous avons effectué quelques modifications. 
 
@@ -210,6 +210,8 @@ namespace Test_POO
 Pour les tests unitaires, nous avons choisi d'utiliser le C# avec la bibliothèque par "Visual studio" "Nunit". Nous avons d'abord référencé notre projet dans le que ce situ la classe que nous voulons test. Ensuite, nous définissons initialisons un objet en pointeur et les variables constantes (set), on pourrait les tester de façon indépendante aussi en suit, nous testons les différentes méthodes utilisées ici nous pouvons voir un test au niveau de la méthode “Select” nous vous invitons à aller consulter le code pour voir les autre test unitaire (Update,Delete,Insert)
 
 ## CAHIER DE TESTS 
+
+[Cf CAHIER DE TESTS](cahier_de_test_equipe_7.xlsx)
 
 La réalisation du cahier de test nous a permis de guider notre équipe sur les fonctionnalités importantes attendues et des différents scénarios possibles pour l’utilisateur, dans le but d'outrepasser les erreurs de manipulation de l’application par le client et d'avoir un suivi total sur l’avancement du projet.
 Le cahier de test est composé de 8 colonnes :
