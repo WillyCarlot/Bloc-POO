@@ -36,7 +36,9 @@ Cette couche contient l’ensemble des appels à fonction des requêtes du “ma
 
 
 ## PROCÉDURES STOCKÉES :
+\
 [dossier procedure stoker](procedure)
+\
 Nous avons fait le choisi d’utiliser les procédure stock dans la molarité des cas. Car celle-ci nous donne les mêmes libertés qu’une requête récrit dans le code et nous permet de rendre le code plus lisible et de marquer encore plus la différence entre le composant et le service de plus le procédure stoker peuvent être modifier sans toucher au code  
 
 Nous allons expliciter une Procédure stockée simple pour montre le fonctionnement de chacun d’elle  
@@ -160,8 +162,9 @@ int main()
 }
 ```
 Ce code va comparer le résultat attendu avec le résultat réel de la fonction, “insérerPersonnel()” qui sert à insérer un personnel et renvoyer “testCreerPersonnel passed” si le résultat est similaire ce qui correspond au fonctionnement prévu de notre fonction, Dans le cas contraire “testCreerPersonnel failed” est renvoyé, ce qui correspond à un dysfonctionnement de notre fonction. voici le résultat
+\
 ![Alt text](TEST_UNITAIRES_NON_CONVENTIONNEL.png)
-
+\
 ### TESTS UNITAIRES CONVENTIONNELS 
 [dossier test unitaire]()
 Voici un exemple de test unitaire que nous avons utilisé dans le code qui est plus conventionnel para port à celui-ci-dessus 
@@ -215,9 +218,10 @@ Le cahier de test est composé de 8 colonnes :
 -	Résultat souhaité – cas d’erreur : décrit la réaction de l’application dans le cas où l’utilisateur est dans le cas d’erreur
 -	Résultat avant implémentation : réaction de l’application avant que la gestion soit implémentée
 -	Implémentation : informe sur l’état d’avancement des test implémentés
-Voici un exemple : 
+Voici un exemple :
+\
 ![Alt text](CAHIER_DE_TESTS.png)
-
+\
 Vous pourrez retrouver l’intégralité du cahier de tests dans le fichier Excel envoyé en pièce jointe avec le livrable 2.
 
 ## Pistes d’améliorations 
